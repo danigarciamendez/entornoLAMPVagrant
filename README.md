@@ -1,10 +1,12 @@
 # entornoLAMPVagrant
 
-###### Archivos adjuntos:
+#### Archivos adjuntos.
 
    -Vagrantfile -> Contiene la configuración de la máquina que vamos a levantar.
  
    -.provision -> Contiene todos los archivos de configuración de herramientas y servicios que vamos a provisionar en nuestra máquina.
+
+#### Procedimiento.
 
 Descargar Vagrant desde su página oficial -> https://www.vagrantup.com/downloads
 
@@ -18,7 +20,7 @@ vagrant up
 
 Con este comando lo que hará es descargar la imagen indicada en el archivo de configuración *Vagrantfile* , configurar la máquina y provisionarla de todo lo necesario para tener un entorno LAMP.
 
-***TENER EN CUENTA!! En el archivo de configuración de Vagrant viene con la redirección de puertos al 2345.***
+_TENER EN CUENTA!! En el archivo de configuración de Vagrant viene con la redirección de puertos al 2345._
 
 Para acceder al servidor web desde nuestro navegador y ver que ya está funcionando solo tenemos que poner:
 
